@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 exec 2>/dev/null mount -o remount,rw /
 #hash_root=$(tar -cf - /root | md5sum| awk '{print $1}' )
 function hash_stable_root {

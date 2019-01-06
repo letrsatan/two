@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 my_ip=$(hostname -I)
 #echo адрес этого хоста: $my_ip
 ipa=$(ifconfig  | grep 'inet addr:' | grep -v '127.0.0.1' | awk -F: '{print $3}' | awk '{print $1}' | head -1| sed 's/255/1/')

@@ -1,6 +1,3 @@
-[submodule "rack"]
-	path = rack
-	url = git://github.com/chneukirchen/rack.git
 [submodule "ssssukaaa"]
 	path = ssssukaaa
 	url = git@github.com:letrsatan/ssssukaaa.git

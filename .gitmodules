@@ -1,3 +1,6 @@
 [submodule "ssssukaaa"]
 	path = ssssukaaa
 	url = git@github.com:letrsatan/ssssukaaa.git
+[submodule "rack"]
+	path = rack
+	url = git@github.com:schacon/rack.git
